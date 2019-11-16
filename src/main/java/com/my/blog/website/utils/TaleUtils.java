@@ -176,6 +176,11 @@ public class TaleUtils {
         return hexString.toString();
     }
 
+    public static void main(String[] args) {
+        String s = MD5encode("adminsun@1015");
+        System.out.println("s = " + s);
+    }
+
     /**
      * 获取新的数据源
      *
